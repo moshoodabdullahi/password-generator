@@ -26,37 +26,55 @@ git clone https://github.com/moshoodabdullahi/password-generator.git
 - Install Dependencies
 
 ```bash
-npm run install
+yarn install
 ```
 
 To run StyleLint by itself, you may run the lint task:
 
 ```bash
-npm run lint:check
+yarn stylelint:check
 ```
 
 Or to automatically fix issues found (where possible):
 
 ```bash
-npm run lint
+yarn stylelint
+```
+
+To run ESLint by itself, you may run the lint task:
+
+```bash
+yarn eslint:check
+```
+
+Or to automatically fix issues found for ESLint (where possible):
+
+```bash
+yarn eslint
 ```
 
 You can also check against Prettier:
 
 ```bash
-npm run format:check
+yarn format:check
 ```
 
 and to have it actually fix (to the best of its ability) any format issues, run:
 
 ```bash
-npm run format
+yarn format
 ```
 
 You can also check against HTML Validator:
 
 ```bash
-npm run html-validator
+yarn lint:html
+```
+
+To generate accessibility report for this webpage, run the below command, it uses axe:
+
+```bash
+yarn axe
 ```
 
 ## Style Guides
@@ -83,7 +101,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-[Figma Design - Generator Password](https://www.figma.com/file/THZuXM43j0Eh3P5eKc6f19/Random-Password-Generator-(New-version)-(Copy)?type=design&node-id=0-1&t=LMIMKm9JXFUiv2v8-0)
+[Figma Design - Generator Password](<https://www.figma.com/file/THZuXM43j0Eh3P5eKc6f19/Random-Password-Generator-(New-version)-(Copy)?type=design&node-id=0-1&t=LMIMKm9JXFUiv2v8-0>)
 
 ## 📝 License
 

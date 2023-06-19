@@ -1,89 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
 
 * {
-    margin: 18px 0;
+  margin: 18px 0;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background: #1c1c1c;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
 }
 
-.container{
-    padding: 48px;
-    margin: 38px;
-    background: #1F2937;
+.container {
+  padding: 48px;
+  margin: 38px;
+  background: #1f2937;
 }
 
 .random-head {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .header {
-    font-family: 'Karla', sans serif;
-    font-size: 40px;
-    color: #fff;
-    margin: 0;
+  font-family: Karla, 'sans serif';
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
 }
 
-.random-text{
-    color: #10b981;
-    margin-bottom: 18px;
+.random-text {
+  color: #10b981;
+  margin-bottom: 18px;
 }
 
-.sub-heading{
-    font-size: 20px;
-    font-family: 'Inter', sans serif;
-    margin: 0;
+.sub-heading {
+  font-size: 20px;
+  font-family: Inter, 'sans serif';
+  margin: 0;
 }
 
-.random-accent{
-    color: #d5d4d8;
+.random-accent {
+  color: #d5d4d8;
 }
 
 .password-button {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 #generate-password-el {
-    height: 100%;
+  height: 100%;
 }
 
 .btn {
-    padding: 12px;
-    border-radius: 6px;
-    background: #10B981;
-    color: #fff;
-    font-family: 'Inter', sans serif;
-    border: none;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);  
+  padding: 12px;
+  border-radius: 6px;
+  background: #10b981;
+  color: #fff;
+  font-family: Inter, 'sans serif';
+  border: none;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
 }
 
 .password-generator {
-    display: flex;
-    width: 100%;
-    margin: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
 }
 
-.column-left, .column-right{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-right: 8px;
+.column-left,
+.column-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 8px;
 }
 
-.password{
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 8px 0;
-    font-family: 'Inter', sans serif;
-    color: #10B981;
-    background: #273549;
-    border-radius: 6px;
-    justify-content: center;
-    text-align: center;
+.password {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 8px 0;
+  font-family: Inter, 'sans serif';
+  color: #10b981;
+  background: #273549;
+  border-radius: 6px;
+  justify-content: center;
+  text-align: center;
 }

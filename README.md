@@ -1,10 +1,8 @@
-# Project Name
+# PASSWORD GENERATOR
 
 > One paragraph statement about the project.
 
 ![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -21,7 +19,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/moshoodabdullahi/password-generator.git
 
 ```
 
@@ -70,9 +68,8 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@moshoodabdullahi](https://github.com/moshoodabdullahi)
+- Linkedin: [@moshoodabdullahi](https://www.linkedin.com/in/moshoodabdullahi/)
 
 ## 🤝 Contributing
 
@@ -86,9 +83,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+[Figma Design - Generator Password](https://www.figma.com/file/THZuXM43j0Eh3P5eKc6f19/Random-Password-Generator-(New-version)-(Copy)?type=design&node-id=0-1&t=LMIMKm9JXFUiv2v8-0)
 
 ## 📝 License
 

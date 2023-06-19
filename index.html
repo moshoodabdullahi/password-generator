@@ -2,8 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Password Generator</title>
   </head>
-  <body></body>
+  <body>
+          <div class="container">
+              <div  class="random-head">
+                  <h1 class="header">Generate a <span class="random-text"> <br>random password</span></h1>
+                  <p class="sub-heading random-accent">Never use an insecure password again.</p>
+                  <div class="password-button">
+                      <button class="btn" id="generate-password-el">Generate Password</button>
+                  </div>
+              </div>
+              
+              <div class="password-generator">
+                  <div class="column-left">
+                      <p class="password" id="pass-el-one"> </p>
+                  </div>
+                  <div class="column-right">
+                      <p class="password" id="pass-el-two"> </p>
+                  </div> 
+              </div>
+            </div>      
+          <script src="index.js"></script>
+  </html>
+  </body>
 </html>

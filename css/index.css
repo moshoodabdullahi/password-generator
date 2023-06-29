@@ -6,14 +6,15 @@
 
 html,
 body {
-  margin: 0;
+  margin-top: 36px;
   padding: 0;
   background: #1c1c1c;
 }
 
 .container {
   padding: 48px;
-  margin: 38px;
+  margin: 0 auto;
+  width: 50%;
   background: #1f2937;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 .header {
-  font-family: Karla, 'sans serif';
+  font-family: Karla, sans-serif;
   font-size: 40px;
   color: #fff;
   margin: 0;
@@ -35,7 +36,7 @@ body {
 
 .sub-heading {
   font-size: 20px;
-  font-family: Inter, 'sans serif';
+  font-family: Inter, sans-serif;
   margin: 0;
 }
 
@@ -48,18 +49,19 @@ body {
   width: 100%;
 }
 
-#generate-password-el {
-  height: 100%;
-}
-
 .btn {
   padding: 12px;
   border-radius: 6px;
   background: #10b981;
   color: #fff;
-  font-family: Inter, 'sans serif';
+  font-family: Inter, sans-serif;
   border: none;
   box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+}
+
+#generate-password-el {
+  height: 100%;
+  font-size: 14px;
 }
 
 .password-generator {
@@ -77,12 +79,11 @@ body {
 }
 
 .password {
-  min-height: 50px;
+  min-height: 35px;
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 8px 0;
-  font-family: Inter, 'sans serif';
+  font-family: Inter, sans-serif;
   color: #10b981;
   background: #273549;
   border-radius: 6px;

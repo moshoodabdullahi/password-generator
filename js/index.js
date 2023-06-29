@@ -91,3 +91,12 @@ const characters = [
   '?',
   '/',
 ];
+
+const passOneEl = document.querySelector('#pass-one-el');
+const passTwoEl = document.querySelector('#pass-two-el');
+const generatePasswordEl = document.querySelector('#generate-password-el');
+
+function randomCharacter() {
+  const randomNumber = Math.floor(Math.random() * characters.length);
+  return (characters = [randomNumber]);
+}

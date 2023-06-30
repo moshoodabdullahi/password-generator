@@ -57,14 +57,15 @@ body {
   font-family: Inter, sans-serif;
   border: none;
   box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  cursor: pointer;
 }
 
-#generate-password-el {
+#generate-password {
   height: 100%;
   font-size: 14px;
 }
 
-.password-generator {
+.generated-password {
   display: flex;
   width: 100%;
   margin: 0;
@@ -89,4 +90,8 @@ body {
   border-radius: 6px;
   justify-content: center;
   text-align: center;
+}
+
+hr {
+  color: #bcc7d6;
 }

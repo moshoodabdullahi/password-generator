@@ -6,3 +6,5 @@ generatePasswordButton.addEventListener('click', function generatePassword() {
   passOneElement.textContent = Number(passOneElement.textContent) + 1;
   passTwoElement.textContent = Number(passTwoElement.textContent) + 2;
 });
+
+const passwordLength = 15

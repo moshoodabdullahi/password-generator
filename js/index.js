@@ -96,17 +96,12 @@ const passOneElement = document.querySelector('#generated-password-one');
 const passTwoElement = document.querySelector('#generated-password-two');
 const generatePasswordButton = document.querySelector('#generate-password');
 
-generatePasswordButton.addEventListener('click', function generatePassword() {
-  passOneElement.textContent = getRandomCharacters();
-  passTwoElement.textContent = getRandomCharacters();
-});
-
-getRandomCharacter = () => {
+const getRandomCharacter = () => {
   const randomCharacters = Math.floor(Math.random() * characters.length);
   return characters[randomCharacters];
 };
 
-getRandomCharacters = () => {
+const getRandomCharacters = () => {
   let i = 0;
   const number = 15;
   let randomCharacters = '';
@@ -117,3 +112,8 @@ getRandomCharacters = () => {
   }
   return randomCharacters;
 };
+
+generatePasswordButton.addEventListener('click', function generatePassword() {
+  passOneElement.textContent = getRandomCharacters();
+  passTwoElement.textContent = getRandomCharacters();
+});
